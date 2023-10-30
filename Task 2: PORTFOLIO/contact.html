@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!-- Radha -->
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham3.png" alt="" width="23px">
+                <img class="cross" src="cross.png" alt="" width="23px">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work/general Enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientname">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email & Contact Number with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientnumber" class="form-label">Contact No</label>
+                      <input type="number" class="form-control" id="clientnumber">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientenquiry" class="form-label">Enquiry</label>
+                        <input type="enquiry" class="form-control" id="clientenquiry">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" id="form-check-input" id="isclient">
+                      <label id="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button class="btn btn-sm" type="submit">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>  
+    <script src="main.js"></script>
+</body>
+</html>
